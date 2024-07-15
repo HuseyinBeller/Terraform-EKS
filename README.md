@@ -1,8 +1,10 @@
 Step 1: Create an S3 Bucket
+
 Step 2: [In repo] Replace Bucket Name and Key Name in Terraform Configuration
 Ensure you replace the bucket name in your provider.tf and the key name in your variable.tf with the appropriate values.
 
 Step 3: Create Root Credentials (Access Key & Secret Access Key)
+
 # This step involves creating an IAM user with appropriate permissions in the AWS Management Console, then generating access keys for that user.
 # Use `aws configure` to set up these credentials on your local machine.
 Step 4: Create an EC2 VM and Connect to It Using MobaXterm
